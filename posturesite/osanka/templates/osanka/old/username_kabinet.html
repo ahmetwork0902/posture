@@ -1,0 +1,11 @@
+{% extends 'osanka/base.html' %}
+
+{% block content %}
+<h1>{{title}}</h1>
+    {% for m in posts %}
+    <li>
+        <h2>{{m.username}}</h2>
+        <p>{{m.email}}</p>
+    </li>
+    {% endfor %}
+{% endblock %}

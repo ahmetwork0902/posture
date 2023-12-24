@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.conteiner {
+    margin: 0px, 70px;
+}
+.header {
+    background-image: url("../images/fon.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item {
+    color: #000;
+    text-decoration: none;
+    font-weight: 590;
+    font-size: 22px;
+    
+    margin-right: 35px;
+}
+.button{
+    background-color: #2E2BD0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 14px, 18px;
+    
+}
+.header-title {
+    color: #fff;
+    padding-top: 185px;
+    font-size: 55px;
+    margin-top: 45px;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.header-img {
+    
+    text-align: center;
+}

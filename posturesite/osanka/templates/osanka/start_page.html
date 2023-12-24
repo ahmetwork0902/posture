@@ -1,0 +1,272 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href="{% static 'osanka/css/start_main_not_authorized.css' %}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Posture</title>
+</head>
+<body>
+<div class='header'>
+    <div class='conteiner'>
+        <div class='header-line'>
+            {% if user.is_authenticated %}
+            <div class='nav'>
+                <a class='nav-item' href="{% url 'home' %}">О нас</a>
+                <a class='nav-item' href="{% url 'achievements' %}">Достижения</a>
+                <a class='nav-item' href="{% url 'achievements' %}">Статистика</a>
+            </div>
+               <a class='button4' href="% url 'start' %">Начать</a> | <a class='button4' href="{% url 'users:logout' %}">Выйти</a> | <li class="last"> {{user.username}} |
+            {% else %}
+                <a class='button4' href="{% url 'users:login' %}">Войти</a> | <a class='button4' href="{% url 'users:register' %}">Регистрация</a>
+            {% endif %}
+        </div>
+
+        <div class='header-img'>
+            <img class='line' src="{% static 'osanka/images/Ellipse%201.png'%}" alt="photo">
+            <div class='header-title'>
+                Выпрями осанку, сохрани спину
+            </div>
+        </div>
+        <div class='header-img'>
+            <img class='line' src="{% static 'osanka/images/line_o_nas.png'%}" alt="photo">
+            <div class='discr'>
+                Корректор осанки для всех
+            </div>
+        </div>
+        <div class='conthead'>
+        </div>
+        <div class='ph'>
+        
+    </div>
+        </div>
+    </div>
+    <div class='head1'>
+                <div class='head1-text'>
+                     Введение
+                </div>
+            <div class='head1-line-img'>
+                <img class='head1-line' src="{% static 'osanka/images/Line%202.png'%}" alt="photo">
+            </div>
+        </div>
+    <div class='head1-opis'>
+                
+Posture - это бесплатное приложение, которое помогает следить за осанкой. Оно анализирует вашу осанку и напоминает вам, когда вы отвлеклись и забыли держать спину ровно. Это одно из наиболее полезных приложений для человека, проводящего день за компьютером.
+
+        </div>
+    <div class='head2'>
+                <div class='head2-text'>
+                     Зачем вам это
+                </div>
+            <div class='head2-line-img'>
+                <img class='head2-line' src="{% static 'osanka/images/Line%202.png'%}" alt="photo">
+            </div>
+        </div>
+    
+    <div class='cards'>
+    <div class='card-hold'>
+    
+        <div class="card">
+            <div class='card-image1'>
+               <img class='card-img' src="{% static 'osanka/images/Block_2.png'%}" alt="photo">
+            </div>
+            <div class='num'>
+                01
+            </div>
+            <div class='card-title'>
+                Замедлить изнашивание
+                <br>суставов
+            </div>
+            <div class='card-opis'>
+                Неправильное распределение 
+                <br>веса тела ведет к перекосам в
+                <br>износе суставов
+            </div>
+            <div class='card-image2'>
+               <img class='card-img' src="{% static 'osanka/images/Block_5.png'%}" alt="photo">
+            </div>
+            <div class='card-title99'>
+                Стартовый рывок
+            </div>
+        </div>
+         <div class="card">
+            <div class='card-image1'>
+
+               <img class='card-img' src="{% static 'osanka/images/Block_2.png'%}" alt="photo">
+            </div>
+             <div class='num'>
+                02
+            </div>
+            <div class='card-title'>
+                Повысить свою 
+                <br>привлекательность
+            </div>
+             <div class='card-opis'>
+             Согласно опросам, людей с 
+            <br>правильной осанкой считают 
+            <br>более привлекательными
+             </div>
+            <div class='card-image2'>
+               <img class='card-img' src="{% static 'osanka/images/Block_2.png'%}" alt="photo">
+            </div>
+             <div class='num'>
+                03
+            </div>
+            <div class='card-title'>
+                Избавиться от боли
+                <br>в спине
+            </div>
+             <div class='card-opis'>
+             Часть болей вызвана не 
+            <br>травмами, а неправильным 
+            <br>положением в течение дня
+             </div>
+             
+        </div>
+        <div class="card">
+            <div class='card-image1'>
+               <img class='card-img' src="{% static 'osanka/images/Block_6.png'%}" alt="photo">
+            </div>
+            <div class='card-title99'>
+                Несокрушимый
+            </div>
+            <div class='card-image3'>
+               <img class='card-img' src="{% static 'osanka/images/Block_2.png'%}" alt="photo">
+            </div>
+            <div class='num'>
+                04
+            </div>
+            <div class='card-title'>
+                Повысить выброс
+                <br>эндорфинов 
+            </div>
+            <div class='card-opis'>
+                Улучшение кровообращения 
+                <br>позволяет повысить 
+                <br>когнитивные способности
+            </div>
+             
+        </div>
+
+        </div>
+    </div>
+     <div class='head3'>
+                <div class='head3-text'>
+                     Преимущества
+                </div>
+            <div class='head3-line-img'>
+                <img class='head3-line' src="{% static 'osanka/images/Line%202.png'%}" alt="photo">
+            </div>
+        </div>
+    <div class='cards1'>
+    <div class='card-hold1'>
+    
+        <div class="card1">
+            <div class='card11-image1'>
+               <img class='card1-img' src="{% static 'osanka/images/Block.png'%}" alt="photo">
+            </div>
+            <div class='card1-title'>
+                Постоянный мониторинг осанки
+                <br>с помощью веб-камеры 
+                <br>ноутбука
+            </div>
+            <div class='card11-image2'>
+               <img class='card-img' src="{% static 'osanka/images/Block.png'%}" alt="photo">
+            </div>
+            <div class='card1-title'>
+                Информационная безопасность
+            </div>
+                <div class='card1-opis'>
+                    Ваш видеопоток никуда
+                    <br>не передается
+                </div>
+            
+            </div>
+            <div class="card1">
+            <div class='card1-image1'>
+               <img class='card1-img' src="{% static 'osanka/images/Block.png'%}" alt="photo">
+            </div>
+            <div class='card1-title'>
+                Геймификация процесса
+            </div>
+            <div class='card1-opis'>
+                За выполнение заданий вы будете
+                <br>получать достижения
+            </div>
+            <div class='card1-image2'>
+               <img class='card-img' src="{% static 'osanka/images/Block.png'%}" alt="photo">
+            </div>
+            <div class='card1-title'>
+                Сбор статистики
+            </div>
+                <div class='card1-opis'>
+                    Статистика собирается и рисуются
+                    <br>графики
+                </div>
+    
+        </div>
+        
+        <div class="card1">
+            <div class='card1-image1'>
+               <img class='card1-img' src="{% static 'osanka/images/Block.png'%}" alt="photo">
+            </div>
+            <div class='card1-title'>
+                Настройка частоты уведомлений
+            </div>
+            <div class='card1-opis'>
+                Вы сможете настроить, как часто вы 
+                <br>хотите, чтобы вас отвлекали
+            </div>
+            <div class='card1-image2'>
+               <img class='card-img' src="{% static 'osanka/images/BlockF.png'%}" alt="photo">
+            </div>
+            <div class='card13-title'>
+                ИИ и экспертные правила
+            </div>
+                <div class='card13-opis'>
+                    Используя ИИ, мы распознаем положение 
+                    <br>ваших плечей и головы в пространстве, 
+                    <br>а затем на основе экспертных правил
+                    <br>анализируем вашу осанку
+                </div>
+    
+        </div>
+        </div>
+    </div>
+    <div class='head4'>
+        <div class="btn4">
+            {% if user.is_authenticated %}
+               <a class='button4' href='#'>Начать</a>
+            {% else %}
+                <a class='button4' href="{% url 'users:login' %}">Войти</a> | <a class='button4' href='#'>Регистрация</a>
+            {% endif %}
+
+        </div>
+    </div>
+    <div class='lineP'>
+
+        <img class='linepp' src="{% static 'osanka/images/pod.png'%}" alt="photo">
+    </div>
+    <div class=cont>
+    <div class='head5'>
+        
+            <div class='nav5'>
+                <a class='nav5-item' href="@">О нас</a>
+            </div>
+            <div class='nav5'>
+                <a class='nav5-item' href="@">Достижения</a>
+            </div>
+            <div class='nav5'>
+                <a class='nav5-item' href="@">Статистика</a>
+            </div>
+    </div>
+    </div>
+    <div class='contem'>
+        posture@gmail.com
+    </div>
+    <div class='head6'>
+    </div>
+    </body>

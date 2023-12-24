@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.conteiner {
+    margin: 0px, 70px;
+}
+.header {
+    background-image: url("../images/fon.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 1500px, 980px;
+}
+.header-line {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item {
+    color: #000;
+    text-decoration: none;
+    font-weight: 590;
+    font-size: 22px;
+    
+    margin-right: 35px;
+}
+.button{
+    background-color: #2E2BD0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 14px, 18px;
+    
+}
+
+.conthead{
+    margin-top: 80px;
+}
+.header-img{
+    text-align: center;
+}
+.header-title {
+    color: #fff;
+    font-size: 45px;
+    margin-top: -45px;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.li{
+    margin-top: 0px;
+}
+.discr{
+    color: #f4f4f4;
+    text-align: center;
+    font-weight: 190;
+    font-size: 22px;
+}
+.ph{
+    background-image: url("../images/w_ph.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head1-text {
+    color: #323232;
+    font-size: 45px;
+    margin-top: -10px;
+    font-weight: 600;
+    text-align: center;
+    opacity: .9;
+}
+.head1-line-img{
+    text-align: center;
+    opacity: .8;
+}
+.head1-opis {
+    text-align:center;
+    font-size: 25px;
+    margin-top: 100px;
+    opacity: .8;
+}
+.head2{
+    color: #323232;
+    font-size: 45px;
+    margin-top: 150px;
+    font-weight: 600;
+    text-align: center;
+    opacity: .9;
+}
+.head2-line-img{
+    margin-top: -30px;
+    opacity: .8;
+}
+.card-hold{
+    
+    margin-left: 200px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.card-image1{
+    display: flex;
+    
+}
+.card-image2{
+    margin-top: 7px;
+    display: flex;
+    
+}
+
+.num{
+    color: #2E2BD0;
+    margin-top: -245px;
+    font-size: 30px;
+    font-weight: 500;
+     margin-left: 35px;
+    display: flex;
+    
+}
+
+.card-title{
+    color: #000;
+    margin-top: 15px;
+    font-size: 21px;
+    font-weight: 590;
+     margin-left: 35px;
+    display: flex;
+}
+
+.card-title99{
+    color: rgba(0,0,0,0.0);
+    margin-top: -160px;
+    font-size: 16px;
+    font-weight: 650;
+     margin-left: 15px;
+    display: flex;
+}
+
+.card-opis{
+    color: #2F353F;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 35px;
+    opacity: .7;
+    display: flex;
+}
+
+.card-image2{
+    margin-top: 43px;
+}
+.card-image3{
+    margin-top: 138px;
+}
+
+.head3{
+    color: #323232;
+    font-size: 45px;
+    margin-top: 200px;
+    font-weight: 600;
+    text-align: center;
+    opacity: .9;
+    
+}
+.head3-line-img{
+    margin-top: -30px;
+}
+
+.card-hold1{
+    
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.card11-image1{
+    display: flex;
+    opacity: 0;
+}
+
+.card1-image1{
+    display: flex;
+    
+}
+.card11-image2{
+    margin-top: 45px;
+    display: flex;
+}
+.card1-image2{
+    margin-top: 36px;
+    display: flex;
+    
+}
+.card1-title{
+    color: #000;
+    margin-top: -130px;
+    font-size: 20px;
+    font-weight: 590;
+     margin-left: 35px;
+    display: flex;
+}
+.card1-opis{
+    color: #2F353F;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 35px;
+    opacity: .7;
+    display: flex;
+}
+
+.card13-title{
+    color: #fff;
+    margin-top: -215px;
+    font-size: 20px;
+    font-weight: 600;
+     margin-left: 35px;
+    display: flex;
+}
+
+.card13-opis{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 35px;
+    opacity: .9;
+    display: flex;
+}
+
+.head4{
+    text-align: center;
+    margin-top: 180px;
+}
+
+.lineP{
+   margin-top: 60px; 
+}
+
+.button4{
+    background-color: #2E2BD0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 14px, 18px;
+    opacity: .9;
+}
+.head5{
+     margin-top: 30px;
+}
+.cont{
+    margin-top: 30px;
+     text-align: right;
+}
+.nav5{
+    margin-right: 80px;
+    margin-top: 5px;
+}
+.nav5-item {
+    color: #2E2BD0;
+    text-decoration: none;
+    font-weight: 590;
+    font-size: 14px;
+   
+    margin-right: 35px;
+}
+
+.contem{
+    margin-top: -50px;
+    margin-left: 30px;
+    color: #2E2BD0;
+    font-size: 14px;
+}
+
+.head6{
+    margin-top: 45px;
+}

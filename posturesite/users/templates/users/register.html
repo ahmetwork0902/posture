@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="{% static 'osanka/css/stile_start.css' %}" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Posture</title>
+</head>
+<body>
+<div class='header'>
+    <div class='conteiner'>
+        <div class='header-line'>
+
+            <div class='nav'>
+                <a class='nav-item' href="{% url 'home' %}">О нас</a>
+                <a class='nav-item' href="{% url 'achievements' %}">Достижения</a>
+                <a class='nav-item' href="statistics">Статистика</a>
+            </div>
+            <div class="btn">
+                <a class='button' href="% url 'start' %">Начать</a>
+            </div>
+        </div>
+        <div class='header-img'>
+                    <div class='header-title'>
+                <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <p><button type="submit">Регистрация</button></p>
+                    </form>
+            </div>
+                <img class='line' src="{% static 'osanka/images/Line.png' %}" alt="photo">
+            </div>
+        </div>
+    </div>
+
+
